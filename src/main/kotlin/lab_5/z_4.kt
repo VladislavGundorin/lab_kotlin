@@ -7,7 +7,7 @@ fun countWords(input: String): Int {
     return nonEmptyWords.size
 }
 fun main() {
-    val input = "Это все фрукты: мандарин, апельсин; вафелька."
+    val input = "Это все фрукты:   мандарин, апельсин; вафелька."
 
     val wordCount = countWords(input)
     println("Количество слов в строке: $wordCount")
